@@ -1,0 +1,31 @@
+{
+    "name": "ptech/yii2-vegas",
+    "description": "Vegas Js Plugin",
+    "keywords": ["yii2", "yii2-pyrocms", "vegas js", "pyrotech solutions"],
+    "type": "yii2-widget",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reginald Goolsby",
+            "email": "rjgoolsby@pyrotechsolutions.com",
+            "homepage": "http://www.pyrotechsolutions.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2" : "*",
+		"bower-asset/vegas" : "2.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ptech\\vegas\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
